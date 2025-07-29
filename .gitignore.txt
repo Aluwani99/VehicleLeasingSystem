@@ -10,6 +10,11 @@ obj/
 *.pdb
 *.cache
 
+# Add these lines to your existing .gitignore
+packages/
+VehicleLeasingSystem/Content/
+VehicleLeasingSystem/Scripts/
+
 # User-specific files
 *.user
 *.suo
