@@ -1,0 +1,65 @@
+﻿/* Set padding to keep content from hitting the edges */
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.panel-heading {
+    background-color: #337ab7;
+    color: white;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+:root {
+    --primary: #4e73df;
+    --secondary: #858796;
+    --success: #1cc88a;
+    --info: #36b9cc;
+    --warning: #f6c23e;
+    --danger: #e74a3b;
+    --light: #f8f9fc;
+    --dark: #5a5c69;
+}
+
+body {
+    font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f8f9fc;
+}
+
+.card {
+    border: none;
+    border-radius: 0.35rem;
+}
+
+.shadow {
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+
+/* Add more custom styles as needed */

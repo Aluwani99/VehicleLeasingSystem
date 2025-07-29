@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\vehicleleasingsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|solutionrelative:vehicleleasingsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\vehicleleasingsystem\\viewmodels\\vehiclereportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|solutionrelative:vehicleleasingsystem\\viewmodels\\vehiclereportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\vehicleleasingsystem\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|solutionrelative:vehicleleasingsystem\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|c:\\users\\mahlatser\\source\\repos\\vehicleleasingsystem\\vehicleleasingsystem\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|solutionrelative:vehicleleasingsystem\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|c:\\users\\mahlatser\\source\\repos\\vehicleleasingsystem\\vehicleleasingsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|solutionrelative:vehicleleasingsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|c:\\users\\mahlatser\\source\\repos\\vehicleleasingsystem\\vehicleleasingsystem\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|solutionrelative:vehicleleasingsystem\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\vehicleleasingsystem\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|solutionrelative:vehicleleasingsystem\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\vehicleleasingsystem\\views\\home\\vehiclereport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|solutionrelative:vehicleleasingsystem\\views\\home\\vehiclereport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\vehicleleasingsystem\\controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|solutionrelative:vehicleleasingsystem\\controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\vehicleleasingsystem\\controllers\\driverscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|solutionrelative:vehicleleasingsystem\\controllers\\driverscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\vehicleleasingsystem\\controllers\\branchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|solutionrelative:vehicleleasingsystem\\controllers\\branchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\vehicleleasingsystem\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|solutionrelative:vehicleleasingsystem\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\vehicleleasingsystem\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|solutionrelative:vehicleleasingsystem\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\vehicleleasingsystem\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|solutionrelative:vehicleleasingsystem\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\vehicleleasingsystem\\migrations\\202507291332361_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|solutionrelative:vehicleleasingsystem\\migrations\\202507291332361_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\vehicleleasingsystem\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|solutionrelative:vehicleleasingsystem\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\vehicleleasingsystem\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|solutionrelative:vehicleleasingsystem\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\vehicleleasingsystem\\models\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|solutionrelative:vehicleleasingsystem\\models\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\vehicleleasingsystem\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|solutionrelative:vehicleleasingsystem\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\vehicleleasingsystem\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|solutionrelative:vehicleleasingsystem\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\vehicleleasingsystem\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA8F3C2-1C5D-407D-B0CD-12FBB1EB243A}|VehicleLeasingSystem\\VehicleLeasingSystem.csproj|solutionrelative:vehicleleasingsystem\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "VehicleLeasingSystem\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "VehicleLeasingSystem\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T17:17:51.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "VehicleLeasingSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "VehicleLeasingSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T13:52:45.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "VehicleLeasingSystem\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "VehicleLeasingSystem\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T13:45:52.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Web.config",
+              "RelativeDocumentMoniker": "VehicleLeasingSystem\\Web.config",
+              "ToolTip": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Web.config",
+              "RelativeToolTip": "VehicleLeasingSystem\\Web.config",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-07-29T11:57:51.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VehicleReportViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\ViewModels\\VehicleReportViewModel.cs",
+              "RelativeDocumentMoniker": "VehicleLeasingSystem\\ViewModels\\VehicleReportViewModel.cs",
+              "ToolTip": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\ViewModels\\VehicleReportViewModel.cs",
+              "RelativeToolTip": "VehicleLeasingSystem\\ViewModels\\VehicleReportViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T13:45:29.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VehicleReport.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Views\\Home\\VehicleReport.cshtml",
+              "RelativeDocumentMoniker": "VehicleLeasingSystem\\Views\\Home\\VehicleReport.cshtml",
+              "ToolTip": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Views\\Home\\VehicleReport.cshtml",
+              "RelativeToolTip": "VehicleLeasingSystem\\Views\\Home\\VehicleReport.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T13:52:22.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Site.css",
+              "DocumentMoniker": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Content\\Site.css",
+              "RelativeDocumentMoniker": "VehicleLeasingSystem\\Content\\Site.css",
+              "ToolTip": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Content\\Site.css",
+              "RelativeToolTip": "VehicleLeasingSystem\\Content\\Site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-29T13:53:19.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\README.md",
+              "RelativeDocumentMoniker": "VehicleLeasingSystem\\README.md",
+              "ToolTip": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\README.md",
+              "RelativeToolTip": "VehicleLeasingSystem\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-07-29T17:11:24.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SuppliersController.cs",
+              "DocumentMoniker": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Controllers\\SuppliersController.cs",
+              "RelativeDocumentMoniker": "VehicleLeasingSystem\\Controllers\\SuppliersController.cs",
+              "ToolTip": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Controllers\\SuppliersController.cs",
+              "RelativeToolTip": "VehicleLeasingSystem\\Controllers\\SuppliersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T13:44:08.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DriversController.cs",
+              "DocumentMoniker": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Controllers\\DriversController.cs",
+              "RelativeDocumentMoniker": "VehicleLeasingSystem\\Controllers\\DriversController.cs",
+              "ToolTip": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Controllers\\DriversController.cs",
+              "RelativeToolTip": "VehicleLeasingSystem\\Controllers\\DriversController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T13:43:17.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BranchesController.cs",
+              "DocumentMoniker": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Controllers\\BranchesController.cs",
+              "RelativeDocumentMoniker": "VehicleLeasingSystem\\Controllers\\BranchesController.cs",
+              "ToolTip": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Controllers\\BranchesController.cs",
+              "RelativeToolTip": "VehicleLeasingSystem\\Controllers\\BranchesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T13:41:01.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClientsController.cs",
+              "DocumentMoniker": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Controllers\\ClientsController.cs",
+              "RelativeDocumentMoniker": "VehicleLeasingSystem\\Controllers\\ClientsController.cs",
+              "ToolTip": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Controllers\\ClientsController.cs",
+              "RelativeToolTip": "VehicleLeasingSystem\\Controllers\\ClientsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T13:41:29.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VehiclesController.cs",
+              "DocumentMoniker": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Controllers\\VehiclesController.cs",
+              "RelativeDocumentMoniker": "VehicleLeasingSystem\\Controllers\\VehiclesController.cs",
+              "ToolTip": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Controllers\\VehiclesController.cs",
+              "RelativeToolTip": "VehicleLeasingSystem\\Controllers\\VehiclesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T13:40:13.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "VehicleLeasingSystem\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "VehicleLeasingSystem\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAowDUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T13:32:22.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "202507291332361_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Migrations\\202507291332361_InitialCreate.cs",
+              "RelativeDocumentMoniker": "VehicleLeasingSystem\\Migrations\\202507291332361_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Migrations\\202507291332361_InitialCreate.cs",
+              "RelativeToolTip": "VehicleLeasingSystem\\Migrations\\202507291332361_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T13:32:48.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Models\\Vehicle.cs",
+              "RelativeDocumentMoniker": "VehicleLeasingSystem\\Models\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Models\\Vehicle.cs",
+              "RelativeToolTip": "VehicleLeasingSystem\\Models\\Vehicle.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T11:49:22.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "VehicleLeasingSystem\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "VehicleLeasingSystem\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T11:49:48.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Driver.cs",
+              "DocumentMoniker": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Models\\Driver.cs",
+              "RelativeDocumentMoniker": "VehicleLeasingSystem\\Models\\Driver.cs",
+              "ToolTip": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Models\\Driver.cs",
+              "RelativeToolTip": "VehicleLeasingSystem\\Models\\Driver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T11:48:47.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "VehicleLeasingSystem\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Models\\Client.cs",
+              "RelativeToolTip": "VehicleLeasingSystem\\Models\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T11:48:33.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Branch.cs",
+              "DocumentMoniker": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Models\\Branch.cs",
+              "RelativeDocumentMoniker": "VehicleLeasingSystem\\Models\\Branch.cs",
+              "ToolTip": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Models\\Branch.cs",
+              "RelativeToolTip": "VehicleLeasingSystem\\Models\\Branch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T11:48:08.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Models\\Supplier.cs",
+              "RelativeDocumentMoniker": "VehicleLeasingSystem\\Models\\Supplier.cs",
+              "ToolTip": "C:\\Users\\Mahlatser\\source\\repos\\VehicleLeasingSystem\\VehicleLeasingSystem\\Models\\Supplier.cs",
+              "RelativeToolTip": "VehicleLeasingSystem\\Models\\Supplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T11:47:22.365Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

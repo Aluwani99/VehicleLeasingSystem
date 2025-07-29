@@ -1,0 +1,183 @@
+﻿@model List<VehicleLeasingSystem.ViewModels.VehicleReportViewModel>
+
+@{
+    ViewBag.Title = "Vehicle Manufacturer Report";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="h3 mb-0 text-gray-800">Vehicle Manufacturer Allocation Report</h1>
+        <div>
+            <button class="btn btn-primary" onclick="window.print()">
+                <i class="bi bi-printer-fill"></i> Print Report
+            </button>
+            <button class="btn btn-success" id="exportExcel">
+                <i class="bi bi-file-earmark-excel-fill"></i> Export to Excel
+            </button>
+        </div>
+    </div>
+
+    <div class="card shadow mb-4">
+        <div class="card-header py-3 d-flex justify-content-between align-items-center">
+            <h6 class="m-0 font-weight-bold text-primary">Report Summary</h6>
+            <div class="dropdown">
+                <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    Filter by Manufacturer
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#" data-filter="all">All Manufacturers</a></li>
+                    @foreach (var item in Model)
+                    {
+                        <li><a class="dropdown-item" href="#" data-filter="@item.Manufacturer">@item.Manufacturer</a></li>
+                    }
+                </ul>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-lg-6 mb-4 manufacturer-card" data-manufacturer="@item.Manufacturer">
+                        <div class="card h-100">
+                            <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+                                <h5 class="mb-0">@item.Manufacturer</h5>
+                                <span class="badge bg-light text-dark">Total: @item.Total</span>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <!-- By Supplier -->
+                                    <div class="col-md-6 mb-3">
+                                        <h6 class="text-center text-muted mb-3">
+                                            <i class="bi bi-box-seam"></i> By Supplier
+                                        </h6>
+                                        <div class="table-responsive">
+                                            <table class="table table-sm table-hover">
+                                                <thead class="bg-light">
+                                                    <tr>
+                                                        <th>Supplier</th>
+                                                        <th class="text-end">Count</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    @foreach (var supplier in item.BySupplier)
+                                                    {
+                                                        <tr>
+                                                            <td>@supplier.Key</td>
+                                                            <td class="text-end">@supplier.Value</td>
+                                                        </tr>
+                                                    }
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+
+                                    <!-- By Branch -->
+                                    <div class="col-md-6 mb-3">
+                                        <h6 class="text-center text-muted mb-3">
+                                            <i class="bi bi-building"></i> By Branch
+                                        </h6>
+                                        <div class="table-responsive">
+                                            <table class="table table-sm table-hover">
+                                                <thead class="bg-light">
+                                                    <tr>
+                                                        <th>Branch</th>
+                                                        <th class="text-end">Count</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    @foreach (var branch in item.ByBranch)
+                                                    {
+                                                        <tr>
+                                                            <td>@branch.Key</td>
+                                                            <td class="text-end">@branch.Value</td>
+                                                        </tr>
+                                                    }
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+
+                                    <!-- By Client -->
+                                    <div class="col-12">
+                                        <h6 class="text-center text-muted mb-3">
+                                            <i class="bi bi-people-fill"></i> By Client
+                                        </h6>
+                                        <div class="table-responsive">
+                                            <table class="table table-sm table-hover">
+                                                <thead class="bg-light">
+                                                    <tr>
+                                                        <th>Client</th>
+                                                        <th class="text-end">Count</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    @foreach (var client in item.ByClient)
+                                                    {
+                                                        <tr>
+                                                            <td>@client.Key</td>
+                                                            <td class="text-end">@client.Value</td>
+                                                        </tr>
+                                                    }
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-light">
+                                <small class="text-muted">Last updated: @DateTime.Now.ToString("MMM dd, yyyy")</small>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            // Filter functionality
+            $('.dropdown-item[data-filter]').click(function(e) {
+                e.preventDefault();
+                const filter = $(this).data('filter');
+
+                if (filter === 'all') {
+                    $('.manufacturer-card').show();
+                } else {
+                    $('.manufacturer-card').hide();
+                    $(`.manufacturer-card[data-manufacturer="${filter}"]`).show();
+                }
+
+                $('#dropdownMenuButton').text($(this).text());
+            });
+
+            // Export to Excel functionality
+            $('#exportExcel').click(function() {
+                // This would need proper implementation with a library like SheetJS
+                alert('Export to Excel functionality would be implemented here');
+
+            });
+        });
+    </script>
+
+    <style>
+        .manufacturer-card {
+            transition: all 0.3s ease;
+        }
+
+        .table-sm th, .table-sm td {
+            padding: 0.5rem;
+        }
+
+        .card {
+            box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+        }
+
+        .card-header {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+        }
+    </style>
+}

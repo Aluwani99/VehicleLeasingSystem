@@ -1,0 +1,173 @@
+﻿@{
+    ViewBag.Title = "Vehicle Leasing System Dashboard";
+}
+
+<main class="container-fluid px-0">
+    <!-- Hero Section -->
+    <section class="hero-section bg-dark text-white py-5">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold mb-3">Vehicle Leasing System</h1>
+            <p class="lead mb-4">Efficiently manage your fleet, suppliers, branches, clients, and drivers in one powerful platform</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="@Url.Action("VehicleReport", "Home")" class="btn btn-primary btn-lg px-4">View Fleet Report</a>
+                <a href="@Url.Action("Index", "Vehicle")" class="btn btn-outline-light btn-lg px-4">Manage Vehicles</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Stats Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">System Overview</h2>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-truck fs-1 text-primary mb-3"></i>
+                            <h3 class="h5">Fleet Management</h3>
+                            <p class="text-muted">Track and manage your entire vehicle fleet</p>
+                            <a href="@Url.Action("Index", "Vehicle")" class="btn btn-sm btn-outline-primary">View Vehicles</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-people fs-1 text-success mb-3"></i>
+                            <h3 class="h5">Client Portal</h3>
+                            <p class="text-muted">Manage client relationships and leasing agreements</p>
+                            <a href="@Url.Action("Index", "Client")" class="btn btn-sm btn-outline-success">View Clients</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-building fs-1 text-info mb-3"></i>
+                            <h3 class="h5">Branch Network</h3>
+                            <p class="text-muted">Oversee all your branch operations</p>
+                            <a href="@Url.Action("Index", "Branch")" class="btn btn-sm btn-outline-info">View Branches</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-person-badge fs-1 text-warning mb-3"></i>
+                            <h3 class="h5">Driver Management</h3>
+                            <p class="text-muted">Manage your drivers and assignments</p>
+                            <a href="@Url.Action("Index", "Driver")" class="btn btn-sm btn-outline-warning">View Drivers</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Activity Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="mb-4">Recent Activity</h2>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">New Vehicle Added</h5>
+                                <small>3 days ago</small>
+                            </div>
+                            <p class="mb-1">2023 Toyota Camry added to the fleet</p>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Lease Agreement Signed</h5>
+                                <small>1 week ago</small>
+                            </div>
+                            <p class="mb-1">New agreement with ABC Corporation</p>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Maintenance Completed</h5>
+                                <small>2 weeks ago</small>
+                            </div>
+                            <p class="mb-1">Scheduled maintenance for 5 vehicles</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="mb-4">Quick Actions</h2>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="card bg-primary text-white">
+                                <div class="card-body">
+                                    <h5 class="card-title">Add New Vehicle</h5>
+                                    <p class="card-text">Expand your fleet with new vehicles</p>
+                                    <a href="@Url.Action("Create", "Vehicle")" class="btn btn-light">Add Vehicle</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card bg-success text-white">
+                                <div class="card-body">
+                                    <h5 class="card-title">Register New Client</h5>
+                                    <p class="card-text">Onboard new leasing clients</p>
+                                    <a href="@Url.Action("Create", "Client")" class="btn btn-light">Add Client</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card bg-info text-white">
+                                <div class="card-body">
+                                    <h5 class="card-title">Create Lease</h5>
+                                    <p class="card-text">Start a new vehicle lease agreement</p>
+                                    <a href="#" class="btn btn-light">Create Lease</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card bg-warning text-dark">
+                                <div class="card-body">
+                                    <h5 class="card-title">Generate Reports</h5>
+                                    <p class="card-text">View detailed system reports</p>
+                                    <a href="@Url.Action("VehicleReport", "Home")" class="btn btn-dark">View Reports</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+    <style>
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/Content/images/hero-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            min-height: 400px;
+            display: flex;
+            align-items: center;
+        }
+
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: none;
+            border-radius: 10px;
+        }
+
+            .card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            }
+
+        .list-group-item {
+            border-left: none;
+            border-right: none;
+            transition: all 0.3s ease;
+        }
+
+            .list-group-item:hover {
+                background-color: #f8f9fa;
+            }
+    </style>

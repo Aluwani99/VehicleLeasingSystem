@@ -1,0 +1,70 @@
+# Visual Studio files
+.vs/
+*.suo
+*.user
+
+### Visual Studio & .NET ###
+# Compiled files
+bin/
+obj/
+*.pdb
+*.cache
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# NuGet Packages
+*.nupkg
+packages/
+
+# Visual Studio files
+.vs/
+*.opensdf
+*.sln
+*.v12.suo
+*.VC.db
+
+# Local database files
+App_Data/
+*.mdf
+*.ldf
+
+# ReSharper
+_ReSharper.*
+*.DotSettings.user
+
+# Rider IDE
+.idea/
+
+# MSTest test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+
+# macOS
+.DS_Store
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# Azure
+*.azurePubxml
